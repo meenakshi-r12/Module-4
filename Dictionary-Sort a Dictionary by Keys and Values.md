@@ -1,38 +1,26 @@
-# 🔤 Dictionary-Python Program to Sort a Dictionary by Keys and Values
+# Ex-4C Files Modules
+## AIM:
+To write a function in python to read the content from a text file "poem.txt" line by line and display the same on screen.
+## ALGORITHM:
+1.	Define a function named "Read".
+2.	Open the file named "poetry.txt" in read mode and store the file object in variable "f".
+3.	Print the contents of the file using the "read" method of the file object.
+4.	Call the "Read" function to execute it.
+5.	End of the program.
+## PROGRAM:
+def Read():
+f = open("poetry.txt", "r") 
+   print(f.read())
+Read()
+## OUTPUT:
+![image](https://github.com/user-attachments/assets/f469aee2-a7b2-4fbd-812f-f14d241cad33)
 
-This Python program demonstrates how to sort a dictionary:
-- Alphabetically by keys
-- Alphabetically by values
 
----
+## RESULT:
+Thus, the required program is written and executed successfully.
+ 
 
-## 🎯 Aim
 
-To write a Python program that sorts a dictionary's:
-- Keys in alphabetical order
-- Values in alphabetical order
 
----
 
-## 🧠 Algorithm
-
-1. **Start the program.**
-2. **Define** a dictionary with key-value pairs.
-3. **Sort by Keys**:
-   - Use `sorted(dictionary.items())`
-   - Convert the result to a dictionary using `dict()`
-4. **Sort by Values**:
-   - Use `sorted(dictionary.items(), key=lambda item: item[1])`
-   - Convert the result to a dictionary using `dict()`
-5. **Display** the original and sorted dictionaries.
-6. **End the program.**
-
----
-
-## 🧪Program
-Add Code here
-
-## Sample Output
-
-## Result
 
